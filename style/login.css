@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(rgb(255, 255, 89), rgb(0, 89, 0));
+    margin: 0;
+    padding: 0;
+}
+
+#back {
+    color: black;
+    font-weight: bold;
+    display: box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 8px;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#back:hover {
+    background-color: rgba(0, 0, 0, 0.657);
+    color: white;
+}
+
+button {
+    margin: 0;
+    margin-left: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.431);
+    position: relative;
+    border: solid;
+    margin: auto;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.img {
+    width: 105px;
+    position: relative;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.img img {
+    position: relative;
+    border: solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    left: auto;
+    right: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    width: 310px;
+}
+
+.form #input {
+    border: solid;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 28px;
+    width: 300px;
+}
+
+.form button {
+    border-radius: 6px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: silver;
+    border-width: 2px;
+    margin: 10px 5px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    margin-top: 100px;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+}
