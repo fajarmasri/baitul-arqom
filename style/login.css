@@ -69,7 +69,7 @@ button {
     width: 310px;
 }
 
-.form #input {
+.form .input {
     border: solid;
     border-style: solid;
     border-radius: 10px;
